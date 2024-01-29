@@ -112,6 +112,12 @@ public boolean equals(Object obj) {
 			&& Objects.equals(genero, other.genero) && id == other.id && Objects.equals(nombre, other.nombre);
 }
 
+@Override
+public String toString() {
+	return "Pelicula [id=" + id + ", nombre=" + nombre + ", genero=" + genero + ", duracion=" + duracion + ", coste="
+			+ coste + "]";
+}
+
 
 
 
