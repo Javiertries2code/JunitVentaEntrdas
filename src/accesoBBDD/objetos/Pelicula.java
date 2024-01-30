@@ -5,13 +5,13 @@ import java.util.Objects;
 public class Pelicula {
 
 	
-private int id;
+private Integer id;
 private String nombre;
 private String genero;
-private int duracion;
-private double coste;
+private Integer duracion;
+private Double coste;
 
-public Pelicula(int id, String nombre, String genero, int duracion, double coste) {
+public Pelicula(Integer id, String nombre, String genero, Integer duracion, Double coste) {
 	super();
 	this.id = id;
 	this.nombre = nombre;
@@ -34,7 +34,7 @@ public int getId() {
 /**
  * @param id the id to set
  */
-public void setId(int id) {
+public void setId(Integer id) {
 	this.id = id;
 }
 
@@ -69,28 +69,28 @@ public void setGenero(String genero) {
 /**
  * @return the duracion
  */
-public int getDuracion() {
+public Integer getDuracion() {
 	return duracion;
 }
 
 /**
  * @param duracion the duracion to set
  */
-public void setDuracion(int duracion) {
+public void setDuracion(Integer duracion) {
 	this.duracion = duracion;
 }
 
 /**
  * @return the coste
  */
-public double getCoste() {
+public Double getCoste() {
 	return coste;
 }
 
 /**
  * @param coste the coste to set
  */
-public void setCoste(double coste) {
+public void setCoste(Double coste) {
 	this.coste = coste;
 }
 
@@ -114,8 +114,7 @@ public boolean equals(Object obj) {
 
 @Override
 public String toString() {
-	return "Pelicula [id=" + id + ", nombre=" + nombre + ", genero=" + genero + ", duracion=" + duracion + ", coste="
-			+ coste + "]";
+	return "Test to String";
 }
 
 

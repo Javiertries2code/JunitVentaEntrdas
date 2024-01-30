@@ -42,6 +42,7 @@ public class InfoPelis {
 	 //Ordenar películas
 	 public ArrayList<Pelicula> ordenarPeliculas(ArrayList<Pelicula> listaPeliculas) {
 		 //Aqui se ordena la lista
+		 //listaPeliculas.sort(Pelicula.getId());
 		 return listaPeliculas;
 	 }
 	 
