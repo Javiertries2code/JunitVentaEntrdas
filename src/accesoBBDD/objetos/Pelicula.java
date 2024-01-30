@@ -22,6 +22,7 @@ public Pelicula(Integer id, String nombre, String genero, Integer duracion, Doub
 
 public Pelicula() {
 	super();
+	this.id = 0;
 }
 
 /**
